@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1447838905 source:c:\users\user\desktop\c project\set\main.c
+	<stdio.h>
+	"set.h"
+
+1447838907 c:\users\user\desktop\c project\set\set.h
+
+1447840023 source:c:\users\user\desktop\c project\set\set.c
+	<stdio.h>
+	<stdlib.h>
+

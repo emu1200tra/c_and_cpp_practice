@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1446220005 source:c:\users\user\desktop\c project\sentence count\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

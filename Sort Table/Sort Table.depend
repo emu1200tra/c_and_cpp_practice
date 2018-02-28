@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1448803775 source:c:\users\user\desktop\c project\sort table\main.c
+	"pangfeng.h"
+	<stdio.h>
+	<stdlib.h>
+
+1448803775 c:\users\user\desktop\c project\sort table\pangfeng.h
+

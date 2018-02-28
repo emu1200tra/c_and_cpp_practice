@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1448160412 source:c:\users\user\desktop\c project\selection\main.c
+	<stdio.h>
+	"subset.h"
+
+1448160412 c:\users\user\desktop\c project\selection\subset.h
+
+1448164774 source:c:\users\user\desktop\c project\selection\subset.c
+	<stdio.h>
+	<stdlib.h>
+	"subset.h"
+
