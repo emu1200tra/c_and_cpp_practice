@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1449979914 source:c:\users\user\desktop\c project\array test\array.c
+	<stdio.h>
+	<stdlib.h>
+	"array.h"
+
+1449981214 c:\users\user\desktop\c project\array test\array.h
+
+1449980153 source:c:\users\user\desktop\c project\array test\main.c
+	"array.h"
+	<stdio.h>
+	<string.h>
+	<assert.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1447836177 source:c:\users\user\desktop\c project\blockmover\blockmover.c
+	<stdio.h>
+	<stdlib.h>
+
+1447832794 source:c:\users\user\desktop\c project\blockmover\main.c
+	<stdio.h>
+	"blockmover.h"
+
+1447832464 c:\users\user\desktop\c project\blockmover\blockmover.h
+

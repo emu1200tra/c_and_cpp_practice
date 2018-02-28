@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1446199930 source:c:\users\user\desktop\c project\divisible\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

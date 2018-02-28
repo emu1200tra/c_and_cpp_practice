@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1445418141 source:c:\users\user\desktop\c project\caard\main.c
+	<stdio.h>
+	"card.h"
+
+1445415644 c:\users\user\desktop\c project\caard\card.h
+
+1445418834 source:c:\users\user\desktop\c project\caard\card.c
+	<stdio.h>
+	<stdlib.h>
+
