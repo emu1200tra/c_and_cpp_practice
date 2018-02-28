@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1443956895 source:c:\users\user\desktop\c project\find a duplicate number\main.c
+	<stdio.h>
+	<stdlib.h>
+

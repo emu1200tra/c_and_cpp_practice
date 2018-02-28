@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1445414716 source:c:\users\user\desktop\c project\ptr\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"max.h"
+
+1445414656 source:c:\users\user\desktop\c project\ptr\max.c
+	<stdlib.h>
+	<stdio.h>
+
+1445414726 c:\users\user\desktop\c project\ptr\max.h
+	<stdlib.h>
+	<stdio.h>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1449373131 source:c:\users\user\desktop\c project\map\main.c
+	"map.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<assert.h>
+
+1449373170 c:\users\user\desktop\c project\map\map.h
+
+1449372577 source:c:\users\user\desktop\c project\map\map.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

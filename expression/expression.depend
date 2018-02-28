@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1445420230 source:c:\users\user\desktop\c project\expression\main.c
+	<stdio.h>
+	<string.h>
+	"eval.h"
+
+1445420028 c:\users\user\desktop\c project\expression\eval.h
+	<stdio.h>
+	<stdlib.h>
+
+1445536727 source:c:\users\user\desktop\c project\expression\eval.c
+	<stdio.h>
+	<stdlib.h>
+	"eval.h"
+

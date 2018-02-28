@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1443925545 source:c:\users\user\desktop\c project\math\main.c
+	<stdio.h>
+	"fraction.h"
+
+1443925567 c:\users\user\desktop\c project\math\fraction.h
+
+1443927011 source:c:\users\user\desktop\c project\math\fraction.c
+	"fraction.h"
+
