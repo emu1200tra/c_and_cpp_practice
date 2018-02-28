@@ -1,0 +1,105 @@
+#include <iostream>
+#include <cstdlib>
+#include <cstdio>
+#include <time.h>
+#include <algorithm>
+#include <bits/stdc++.h>
+#include <string>
+
+
+using namespace std;
+
+
+
+struct fnfal_data{
+    string origin;
+    vector<string>output;
+};
+
+vector<fnfal_data>input;
+
+void check_output(vector<fnfal_data>input){
+    int size_output = input.size();
+    for(int i = 0 ; i < size_output ; i++){
+        cout<<input[i].origin<<endl;
+    }
+}
+
+void check_dic(vector<string>dictionary){
+    int size_dic = dictionary.size();
+    for(int i = 0 ; i < size_dic ; i++){
+        cout<<dictionary[i]<<endl;
+    }
+}
+
+vector<string>dictionary;
+
+bool check(string str1){
+    int index =
+}
+
+
+
+
+int main(){
+    char string1[256] , string2[256] , string3[256] , string4[256];
+    string string1cp;
+    FILE *fp;
+    fp = fopen("/tmp2/dsa2016_hw5/cmudict-0.7b" , "r");
+    char tmp_data[4096];
+    char string_cp[4096];
+
+
+    if (fp == NULL){
+        perror ("Error opening file");
+    }
+    while(!feof(fp)){
+
+        fgets(tmp_data , 256 , fp);
+
+        int i;
+        for(i = 0 ; i < 255 ; i++){
+            if(tmp_data[i] == ' '){
+                break;
+            }
+            if(tmp_data[i] == '\n'){
+                break;
+            }
+            string_cp[i] = tmp_data[i];
+        }
+
+        string_cp[i] = '\0';
+        dictionary.push_back(string_cp);
+        string_cp[0] = '\0';
+        tmp_data[0] = '\0';
+    }
+
+    fclose(fp);
+
+    //check_dic(dictionary);
+
+
+
+    while(scanf("%s%s%s%s" , string1 , string2 , string3 , string4) == 4){
+        fnfal_data tmp;
+        tmp.origin = string1;
+        string1cp = string1;
+        input.push_back(tmp);
+
+        //put goto
+        //------insert--------
+        for(int i = 0 ; i < string1cp.size() + 1 ; i++){
+            for(char j = 'a' ; j <= 'z' ; j++){
+                string1cp.insert(i , j);
+            }
+        }
+
+
+
+    }
+    cout<<"jizz"<<endl;
+    check_output(input);
+
+
+    return 0;
+}
