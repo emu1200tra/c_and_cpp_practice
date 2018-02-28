@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1447611322 source:c:\users\user\desktop\c project\witchcraft\main.c
+	<stdio.h>
+	<stdlib.h>
+

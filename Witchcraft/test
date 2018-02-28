@@ -1,0 +1,35 @@
+int isNum(int sum , int num){
+    if(sum % num){
+        return 0;
+    }
+        return sum / num;
+}
+
+int getMax(int max , int maxnum){
+    if(maxnum > max){
+        return max;
+    }
+    return maxnum;
+}
+
+int wizard(int sum, int a, int b, int c, int A, int B, int C) {
+    int tmp_c = getMax(c, sum / C);
+    int tmp_sum = sum - tmp_c * C;
+    if (!tmp_sum) {
+        return 1;
+    }
+
+    int tmp_b = getMax(b, tmp_sum / B);
+    tmp_sum = tmp_sum - tmp_b * B;
+    if (!tmp_sum) {
+        return 1;
+    }
+
+    int tmp_a = getMax(a, tmp_sum / A);
+    tmp_sum = tmp_sum - tmp_a * A;
+    if (!tmp_sum) {
+        return 1;
+    }
+
+    wizard()
+}
